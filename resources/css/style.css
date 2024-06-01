@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.notification-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-bottom: 20px; /* Tambahkan margin-bottom */
+    padding-bottom: 40px; /* Tambahkan padding-bottom untuk jarak tambahan di bawah */
+}
+
+.notification-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+}
+
+#notification-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.notification-item {
+    background-color: #e0f7fa;
+    padding: 10px;
+    margin-bottom: 20px; /* Tambahkan margin-bottom yang lebih besar */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.notification-item.follow {
+    background-color: #c8e6c9;
+}
+
+.notification-item.like {
+    background-color: #ffccbc;
+}
+
+.flex.items-center {
+    margin-bottom: 10px; /* Memberikan lebih banyak ruang antara header dan isi notifikasi */
+}
+
+.card-body {
+    padding: 10px; /* Memastikan padding di dalam setiap item */
+}
